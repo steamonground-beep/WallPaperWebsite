@@ -1,0 +1,50 @@
+{
+    "files":  [
+
+              ],
+    "licenses":  [
+
+                 ],
+    "settings":  {
+                     "updateUrl":  "",
+                     "maxHwids":  3,
+                     "hwidLock":  false,
+                     "forceHwid":  false,
+                     "tokenValidation":  false,
+                     "sessionDurationHours":  24,
+                     "appVersion":  "1.0.2",
+                     "minUsernameLength":  3,
+                     "hashCheck":  false,
+                     "appStatus":  true,
+                     "vpnBlock":  false,
+                     "maxUsernameLength":  32,
+                     "allowRegister":  true,
+                     "showIPs":  false,
+                     "webhookUrl":  "",
+                     "customerPanel":  true
+                 },
+    "config":  {
+
+               },
+    "users":  [
+
+              ],
+    "activity":  [
+
+                 ],
+    "blacklist":  [
+
+                  ],
+    "updates":  [
+
+                ],
+    "activeSessions":  [
+
+                       ],
+    "webhooks":  [
+
+                 ],
+    "subscriptions":  [
+
+                      ]
+}

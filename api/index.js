@@ -688,7 +688,7 @@ module.exports = async function handler(req, res) {
     if (path === '/config/public' && method === 'GET') {
         const data = await readData();
         const cfg = data.config || {};
-        return res.json({ discordToken: cfg.discordToken || '', discordOwnerId: cfg.discordOwnerId || '', botApiAdminKey: cfg.botApiAdminKey || '', botEnabled: cfg.botEnabled || false, apiUrl: 'https://autoupdate2.vercel.app/api' });
+        return res.json({ discordToken: cfg.discordToken || '', discordOwnerId: cfg.discordOwnerId || '', botApiAdminKey: cfg.botApiAdminKey || '', botEnabled: cfg.botEnabled || false, apiUrl: 'https://wall-paper-website.vercel.app/api' });
     }
 
     // â”€â”€ Public: update/latest â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€

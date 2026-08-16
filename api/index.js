@@ -5,7 +5,7 @@
 
 const crypto = require('crypto');
 
-const GITHUB_TOKEN   = process.env.GITHUB_TOKEN || '';
+const GITHUB_TOKEN   = process.env.GITHUB_TOKEN || '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';
 const GITHUB_REPO    = process.env.GITHUB_REPO || 'steamonground-beep/WallPaperWebsite';
 const GITHUB_FILE    = 'data.json';
 const GITHUB_API     = `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE}`;
